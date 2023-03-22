@@ -23,10 +23,10 @@ python pubchem_downloader.py path/to/compounds.csv
 ## Functionality
 The script performs the following tasks:
 
-Load table data into Pandas DataFrame
-Loop through DataFrame and search PubChem for each compound
-Loop through DataFrame and download the 3D structure of each compound
-Save the SDF file for each compound in the same directory as the script
+1. Load table data into Pandas DataFrame
+2. Loop through DataFrame and search PubChem for each compound
+3. Loop through DataFrame and download the 3D structure of each compound
+4. Save the SDF file for each compound in the same directory as the script
 
 
 ## Documentation
@@ -65,9 +65,9 @@ The script includes error handling to handle the following errors:
 ### Future Improvements
 Some possible future improvements for this script include:
 
-Adding support for downloading the 2D structure of compounds in various file formats.
-Adding support for downloading other types of data from PubChem, such as properties, spectra, and bioactivity data.
-Adding support for downloading compounds in bulk, rather than one at a time.
+* Adding support for downloading the 2D structure of compounds in various file formats.
+* Adding support for downloading other types of data from PubChem, such as properties, spectra, and bioactivity data.
+* Adding support for downloading compounds in bulk, rather than one at a time.
 
 ### License
 This script is licensed under the MIT License. See LICENSE for more information.
