@@ -4,10 +4,10 @@ This script downloads the 3D structures of chemical compounds from PubChem using
 ## Dependencies
 The script requires the following dependencies:
 
-pandas
-pubchempy
-requests
-argparse
+* pandas
+* pubchempy
+* requests
+* argparse
 
 These dependencies can be installed using pip, as follows:
 ```
