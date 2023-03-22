@@ -17,7 +17,7 @@ pip install pandas pubchempy requests argparse
 ## Usage
 To use the script, simply run it from the command line, passing the path to the CSV file containing the compound names. The CSV file must have a column named "compound_name" containing the names of the compounds to download.
 ```
-python pubchem_downloader.py path/to/compounds.csv
+python pubchem_3d_downloader.py path/to/compounds.csv
 ```
 
 ## Functionality
